@@ -1,0 +1,40 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    background-color: #24252A;
+    a,button{
+        color: white;
+        // font-size: 16px;
+        // font-weight: 500;
+    }
+    .logo{
+        cursor: pointer;
+    }
+    button{
+        padding: 9px 25px;
+        border-radius: 50px;
+        border: none;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+        background-color: rgba(0, 136, 169, 1);
+        &:hover{
+            background-color: rgba(0, 136, 169, 0.8);
+        }
+    }
+    ul{
+        list-style: none;
+        li{
+            display: inline-block;
+            padding: 0px 20px;
+            a{
+                text-decoration: none;
+                transition: all 0.3s ease 0s;
+                &:hover{
+                    color: #0088a9;
+                }
+            }
+        }
+    }
+}

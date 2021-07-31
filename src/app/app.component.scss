@@ -1,0 +1,36 @@
+.select{
+    padding: 0 5%;
+    .choose{
+        margin-top: 50px;
+        padding: 10px 10%;
+        display: flex;
+        justify-content: space-between;
+        justify-items: center;
+        background-color: #24252A;
+        border-radius: 50px;
+        button{
+            padding: 5px 10px;
+            border: none;
+            font-size: 10px;
+            border-radius: 50px;
+            cursor: pointer;
+            background-color: darkblue;
+            color: white;
+            transition: all .3s ease 0s;
+            &:hover{
+                background-color: rgba(0, 0, 139, 0.616);
+            }
+        }
+    }
+    @media only screen and (min-width: 768px) {
+        padding: 0px 30%;
+        .choose{
+            margin-top: 50px;
+            padding: 10px 10%;
+            button{
+                padding: 9px 25px;
+                font-size: 16px;
+            }
+        }
+    }
+}

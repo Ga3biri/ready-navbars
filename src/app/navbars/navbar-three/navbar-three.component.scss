@@ -1,0 +1,53 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    background-color: #24252A;
+    a,button{
+        color: white;
+    }
+    .logo{
+        cursor: pointer;
+        order: 3;
+        margin-left: auto;
+    }
+    nav{
+        order: 1;
+    }
+    .Contact{
+        order: 2;
+    }
+    button{
+        margin-left: 20px;
+        padding: 9px 25px;
+        border-radius: 50px;
+        border: none;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+        background-color: rgba(0, 136, 169, 1);
+        &:hover{
+            background-color: rgba(0, 136, 169, 0.8);
+        }
+    }
+    ul{
+        list-style: none;
+        li{
+            display: inline-block;
+            padding: 0px 20px;
+            &:first-child{
+                padding: 0px 20px 0px 0px;
+            }
+            @media only screen and (max-width: 768px) {
+                padding: 0px 20px 0px 0px;
+            }
+            a{
+                text-decoration: none;
+                transition: all 0.3s ease 0s;
+                &:hover{
+                    color: #0088a9;
+                }
+            }
+        }
+    }
+}
